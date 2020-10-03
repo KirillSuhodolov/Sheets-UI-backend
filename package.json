@@ -1,0 +1,27 @@
+{
+  "name": "sheets-ui-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js ",
+    "debug": "node --inspect ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillSuhodolov/Sheets-UI-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillSuhodolov/Sheets-UI-backend/issues"
+  },
+  "homepage": "https://github.com/KirillSuhodolov/Sheets-UI-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "googleapis": "^60.0.1",
+    "rxjs": "^6.6.3"
+  }
+}
